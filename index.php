@@ -30,9 +30,20 @@
                 <div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
                     <div class="hsContainer">
                         <div class="hsContent" data-center="opacity: 1" data-106-top="opacity: 0" data-anchor-target="#slide-1 h2">
-                            <h2>palapa jaya</h2>
-                            <p>transportation service</p>
+                            <div class="logo">
+                                <h2>palapa jaya</h2>
+                                <p>transportation service</p>
+                            </div>
                         </div>
+                        <nav role="navigation">
+                            <ul class="nav nav-tabs">
+                                <li><a id="toslide-1" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                                <li><a id="toslide-2" href="#">TENTANG PALAPA JAYA</a></li>
+                                <li><a id="toslide-3" href="#">SERVIS</a></li>
+                                <li><a id="toslide-4" href="#">OUR CLIENTS</a></li>
+                                <li><a id="toslide-5" href="#">CONTACT US</a></li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </section>
@@ -53,59 +64,59 @@
                         <div class="hsContent">
                             <div class="services">
                                 <div class="col-50">
-                                    <div id="boxes-1" class="boxes" data-250-top="opacity: 0;left:-700px" data-100-top="opacity: 1;left:0;" data-bottom="opacity: 1;left:0;"  data-anchor-target="#slide-3">
+                                    <div id="boxes-1" class="boxes" data-550-top="opacity: 0;" data-100-top="opacity: 1;left:0;" data-bottom="opacity: 1;left:0;"  data-anchor-target="#slide-3">
                                         <!-- Image Caption 6 -->
                                         <div id="box-6" class="box">
-                                        <img id="image-6" src="img/packet-loading.jpg"/>
+                                        <img id="image-6" src="img/keselamatan.jpg"/>
                                             <span class="caption scale-caption">
                                                 <p><img src="img/icon-package.png"></p>
-                                                <h4>CAREFULL AND SAFETY <br> IS FIRST</h4>
+                                                <h4>TAK PERLU KHAWATIR <br> BARANG RUSAK</h4>
                                             </span>
                                         </div>
                                         <div class="clear"></div>
-                                        <h3>paket loading</h3>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                                        <h3>Keselamatan Paket</h3>
+                                        <p>Keselamatan Barang Anda adalah Segalanya Dalam bisnis kami, tak ada yang lebih penting daripada menjaga barang Anda bisa tiba di tujuan dalam keadaan utuh, tidak cacat, rusak dalam perjalanan. Untuk memastikannya, kami akan mengirimkan barang Anda hanya dengan armada yang terawat baik, pengemudi berpengalaman dan dapat dipercaya, serta menerapkan sistem kontrol untuk memantau posisi armada.</p>
                                     </div>
-                                    <div id="boxes-2" class="boxes boxes-2" data-400-top="opacity: 0;left:-700px" data-200-top="opacity: 1;left:0;" data-bottom="opacity: 1;left:0;"  data-anchor-target="#boxes-2">
+                                    <div id="boxes-2" class="boxes boxes-2" data-700-top="opacity: 0;" data-200-top="opacity: 1;left:0;" data-bottom="opacity: 1;left:0;"  data-anchor-target="#boxes-2">
                                         <!-- Image Caption 6 -->
                                         <div id="box-6" class="box">
-                                        <img id="image-6" src="img/packet-loading.jpg"/>
+                                        <img id="image-6" src="img/kecepatan.jpg"/>
                                             <span class="caption scale-caption">
                                                 <p><img src="img/icon-package.png"></p>
-                                                <h4>CAREFULL AND SAFETY <br> IS FIRST</h4>
+                                                <h4>TAK PERLU KHAWATIR <br> BARANG TERLAMBAT SAMPAI</h4>
                                             </span>
                                         </div>
                                         <div class="clear"></div>
-                                        <h3>paket loading</h3>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                                        <h3>Kecepatan</h3>
+                                        <p>Tiba Tepat Waktu, Komitmen Kami Kami memahami bahwa waktu adalah uang. Karena itu mengantarkan barang Anda tiba di tujuan dengan tepat waktu adalah komitmen kami yang bisa Anda pegang. Untuk mewujudkannya, kami memulainya dari waktu keberangkatan yang tepat waktu, kemudian memantaunya selama dalam perjalanan. Dengan armada yang terawat baik, keterlambatan pengantaran akibat kerusakan armada dalam perjalanan pun dapat dihindari.</p>
                                     </div>
                                 </div>
                                 <div class="col-50">
-                                    <div id="boxes-3" class="boxes" data-250-top="opacity: 0;right:-700px" data-50-top="opacity: 1;right:0;" data-bottom="opacity: 1;right:0;"  data-anchor-target="#slide-3">
+                                    <div id="boxes-3" class="boxes" data-250-top="opacity: 0;" data-50-top="opacity: 1;right:0;" data-bottom="opacity: 1;right:0;"  data-anchor-target="#slide-3">
                                         <!-- Image Caption 6 -->
                                         <div id="box-6" class="box">
-                                        <img id="image-6" src="img/packet-loading.jpg"/>
+                                        <img id="image-6" src="img/keselamatan.jpg"/>
                                             <span class="caption scale-caption">
                                                 <p><img src="img/icon-package.png"></p>
-                                                <h4>CAREFULL AND SAFETY <br> IS FIRST</h4>
+                                                <h4>TAK PERLU KHAWATIR <br> BARANG HILANG</h4>
                                             </span>
                                         </div>
                                         <div class="clear"></div>
-                                        <h3>paket loading</h3>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                                        <h3>Keamanan Gudang</h3>
+                                        <p>Gudang Milik Sendiri = Keamanan 24 Jam Tak selamanya barang yang Anda antar perlu diantar saat itu juga. Kadang-kadang Anda juga memerlukan tempat penyimpanan sementara sampai waktu pengiriman barang yang ditentukan tiba. Di Palapa Jaya, kami memfasilitasi kebutuhan ini dengan gudang yang kami miliki sendiri sehingga keamanannya pun dapat kami awasi selama 24 jam.</p>
                                     </div>
-                                    <div id="boxes-4" class="boxes boxes-2" data-400-top="opacity: 0;right:-700px" data-150-top="opacity: 1;right:0;" data-bottom="opacity: 1;right:0;"  data-anchor-target="#boxes-2">
+                                    <div id="boxes-4" class="boxes boxes-2" data-400-top="opacity: 0;" data-150-top="opacity: 1;right:0;" data-bottom="opacity: 1;right:0;"  data-anchor-target="#boxes-2">
                                         <!-- Image Caption 6 -->
                                         <div id="box-6" class="box">
-                                        <img id="image-6" src="img/packet-loading.jpg"/>
+                                        <img id="image-6" src="img/harga_kompetitif.jpg"/>
                                             <span class="caption scale-caption">
                                                 <p><img src="img/icon-package.png"></p>
-                                                <h4>CAREFULL AND SAFETY <br> IS FIRST</h4>
+                                                <h4>TAK PERLU KHAWATIR <br> ONGKOS KIRIM MAHAL</h4>
                                             </span>
                                         </div>
                                         <div class="clear"></div>
-                                        <h3>paket loading</h3>
-                                        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                                        <h3>Harga Kompetitif</h3>
+                                        <p>Harga yang Bisa Membuat Anda Berhemat Kami memahami bahwa harga yang kompetitif penting bagi Anda. Segera hubungi info@palapajaya.co.id atau telp. (021) 8459 4646 atau 0813 164 91375 dan cari tahu seberapa besar penghematan yang bisa Anda lakukan.</p>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +155,37 @@
                 <div class="bcg bcg3" data-300-bottom="opacity: 0;" data-100-bottom="opacity: 1;" data-anchor-target="#slide-5">
                     <div class="hsContainer">
                         <div class="hsContent" data-100-bottom="opacity: 0;" data-bottom="opacity: 1;" data-anchor-target="#slide-5">
-                            <div id="map"></div>
+                            <div id="map">
+                                <div class="contacts">
+                                    <div class="form">
+                                        <form method="POST">
+                                            <input type="text" id="contact_name" name="contact_name" placeholder="Nama">
+                                            <input type="text" id="email" name="email" placeholder="Alamat Email">
+                                            <textarea id="message" name="message" placeholder="Pesan kamu"></textarea>
+                                            <input id="submit" class="button" type="button" name="submit" value="SEND">
+                                        </form>
+                                    </div>
+                                    <div class="address">
+                                        <h1>PT. Palapa Jaya</h1>
+                                        <address>
+                                            Head Office <br>
+                                            Jl. Tomang Raya No. 45 Jakarta 11440 Indonesia <br>
+                                            Telp. (021) 2927 8888, 566 5262, 563 3232 <br>
+                                            Fax. (021) 567 1413 <br>
+                                            email : customercare@jne.co.id <br>
+                                            <br>
+                                            Operation Office : <br>
+                                            Jl. Tomang Raya No. 3 Jakarta Barat <br>
+                                            Telp. (021) 566 5262, 563 3232 <br>
+                                            Fax. 021 567 1413 <br>
+                                        </address>
+                                    </div>
+                                </div>
+                                    <div class="google-maps">
+                                    <div class="separator"></div>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3966.66436245145!2d106.801275!3d-6.175668!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f6623e991fc7%3A0xada1bba11755525f!2sJl.+Tomang+Raya+No.45%2C+Grogol+petamburan%2C+Kota+Jakarta+Barat%2C+Daerah+Khusus+Ibukota+Jakarta+11440!5e0!3m2!1sen!2sid!4v1440910619762" width="600" height="450" frameborder="0" style="border:0" ></iframe>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -154,10 +195,9 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/scripts.js"></script>
         <script src="js/imagesloaded.js"></script>
         <script src="js/skrollr.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.9/gmaps.min.js"></script>
         <script src="js/_main.js"></script>
 
     </body>

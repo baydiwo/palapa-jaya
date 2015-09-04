@@ -76,4 +76,7 @@
 	    map.setZoom(7);
 	  }
 	});
+
+
 } )( jQuery );
+

@@ -147,6 +147,7 @@ main {
 /* Slide 1 */
 #slide-1 {
     .bcg {background-image:url('../img/Palapa-jaya.jpg')}
+    .logo ,  .hsContent {width: 100%;}
     h2 {
         font-size: 170px;
         color: @white;
@@ -162,7 +163,7 @@ main {
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #ebebeb; height: 400px; text-align: center}
+#slide-2 .bcg {background: none; background-color: #ebebeb; height: 100vh; text-align: center}
 
 /* Slide 3 */
 .slide-3 {
@@ -260,6 +261,7 @@ main {
     .our-clients{
         position: fixed;
         top: 100px;
+
         h2 {font-size: 72px; color: @pulp; text-align: center;text-transform: uppercase;}
         .our-clients {
             ul {
@@ -277,12 +279,36 @@ main {
 /* Slide 5 */
 #slide-5 {
     position: relative;
+    /* do not group these rules */
+    *::-webkit-input-placeholder {
+        color: @pulp;
+        font-size: 14px;
+    }
+    *:-moz-placeholder {
+        /* FF 4-18 */
+        color: @pulp;
+        font-size: 14px;
+    }
+    *::-moz-placeholder {
+        /* FF 19+ */
+        color: @pulp;
+        font-size: 14px;
+    }
+    *:-ms-input-placeholder {
+        /* IE 10+ */
+        color: @pulp;
+        font-size: 14px;
+    }
+
     .our-clients{
         position: fixed;
-        top: 50px;
+        top: 0px;
         left: 0;
         width: 100%;
-        h2 {font-size: 72px; color: @pulp; text-align: center;text-transform: uppercase;}
+        height: 100%;
+        padding-top: 80px;
+        background: rgba(255,255,255,.8);
+        h2 {font-size: 72px; color: @pulp; text-align: center;text-transform: uppercase;text-shadow:1px 1px 1px #ccc;}
 
         ul {
             width: 100%;
@@ -302,6 +328,97 @@ main {
       width: 100%;
       height: 100%;
       background: #ddd;
+      overflow: hidden;
+
+      .contacts {
+        @cwidth : 660px;
+        width: @cwidth;
+        height: 280px;
+        left: 50%;
+        margin-left: -@cwidth/2;
+        position: absolute;
+        z-index: 2;
+        .transform(translateY(66%));
+
+        .form {
+            float: left;
+            width: 280px;
+
+            input[type="text"], textarea {
+                width: 280px;
+                height: 40px;
+                border : 2px solid @pulp;
+                margin: 0;
+                margin-top: -2px;
+                padding: 5px 10px;
+                color: @pulp;
+                font-size: 14px;
+                float: left;
+            }
+
+            textarea {
+                height: 150px;
+                margin-top: -2px;
+            }
+
+            input[type="button"] {
+                background-color: @pulp;
+                width: 130px;
+                height: 40px;
+                color: white;
+                font-size: 13px;
+                text-align: center;
+                margin-top: 10px;
+                border:none;
+                outline: none;
+                float: left;
+            }
+        }//form
+        .address {
+            width: 330px;
+            float: left;
+            margin-left: 50px;
+            margin-top: -2px;
+            text-align: left;
+
+            h1, address {
+                color: @pulp;
+                text-shadow:1px 2px 1px #eee;
+            }
+
+            h1 {
+                font-size: 48px;
+                margin-top: 0;
+            }
+
+            address {font-size: 14px;}
+
+        }
+    }//contacts
+
+        .separator {
+            width: 100vw;
+            height: 100vh;
+            background: transparent;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+        }
+        .google-maps {
+            position: relative;
+            padding-bottom: 75%; // This is the aspect ratio
+            height: 0;
+            overflow: hidden;
+        }
+        .google-maps iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+            z-index: 0;
+        }
     }
 }
 
@@ -532,5 +649,34 @@ main {
 
     h2, h3 {
         page-break-after: avoid;
+    }
+}
+
+
+// navigation
+nav {
+    position: absolute;
+    width: 650px;
+    left: 50%;
+    margin-left: -(650px / 2);
+    top: 100%;
+    margin-top: -47px;
+    z-index: 999;
+
+    ul {
+        border:none !important;
+        li {
+            a {
+                color: @white;
+                font-size: 18px;
+                text-shadow: 1px 1px 1px #000;
+                // .transition(all .3 linear);
+                &:hover , &:focus {
+                    background: none !important;
+                    color: @orange;
+                    border:none !important;
+                }
+            }
+        }
     }
 }
